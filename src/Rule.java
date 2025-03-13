@@ -21,7 +21,7 @@ public class Rule {
         this.text = text;
     }
 
-    public boolean isOptional() {
+    public boolean getOptional() {
         return optional;
     }
 
