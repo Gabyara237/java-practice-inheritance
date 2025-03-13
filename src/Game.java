@@ -88,7 +88,7 @@ public class Game {
     public Rule[] getRules(){
         return rules;
     }
-    
+
     public int getNumRules() {
         return numRules;
     }
