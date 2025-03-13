@@ -2,6 +2,20 @@ public class DiceGame extends TableTopGame{
     private int numDice = 0;
     private int numDieSides = 6;
 
+    public DiceGame(String n){
+        super(n);
+    }
+
+    public DiceGame(String n,Rule[] rs){
+        super(n,rs);
+    }
+    public DiceGame(String n, Rule[] rs, int t, int ts){
+        super(n,rs,t,ts);
+    }
+    public DiceGame(){
+        super();
+    }
+
     public DiceGame(int nd, int nds){
         numDice= nd;
         numDieSides = nds;

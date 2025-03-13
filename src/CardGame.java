@@ -1,6 +1,20 @@
 public class CardGame extends TableTopGame{
     private int numCards = 52;
 
+    public CardGame(String n){
+        super(n);
+    }
+
+    public CardGame(String n,Rule[] rs){
+        super(n,rs);
+    }
+    public CardGame(String n, Rule[] rs, int t, int ts){
+        super(n,rs,t,ts);
+    }
+    public CardGame(){
+        super();
+    }
+
     public CardGame(int nc){
         numCards = nc;
     }

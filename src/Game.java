@@ -14,7 +14,7 @@ public class Game {
     public Game(String n,Rule[] rs){
         name=n;
 
-        if (rs.length<=numRules){
+        if (rules.length-numRules >= rs.length){
             for(int i=0; i <rs.length; i++){
                 rules[numRules]=rs[i];
                 numRules ++;
